@@ -1,0 +1,438 @@
+body{
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+  padding-top: 20px;
+  background-color: #000;
+}
+header .inner {
+  display: flex;
+  padding-top: 8px;
+  margin: 0 56px;
+  position: relative;
+}
+header .logo {
+  max-width : 167px;
+  margin-right: 1050px;
+}
+header .logo a {
+
+}
+header .logo a img {
+  display: block;
+  width: 167px;
+}
+header .option {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+header .option .select-lang {
+  display: block;
+  width: 94px;
+  height: 36px;
+  margin: 0 32px 0 12px;
+  border: 1px solid #aaa;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 1.3em;
+  background-color: rgba(0,0,0,.5);
+}
+header .option .btn-login {
+  display: block;
+  width: 82px;
+  height: 35px;
+  padding: 7px 17px;
+  background: #e50914;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+.first {
+  background-image: url("../images/KR-ko-20210524-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  height: 785px;
+  border-bottom: 8px solid #222;
+  padding: 70px 45px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.first .first-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 785px;
+  background-color: rgba(0,0,0,.6);
+} 
+
+.first .main {
+  color: #fff;
+  width: 950px;
+  height: 365px;
+  padding: 75px 0;
+  z-index: 1;
+  margin: auto 0;
+}
+.first .main h1{
+  display: block;
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 0 75px;
+  text-align: center;
+}
+.first .main h2{
+  font-weight: 700;
+  font-size: 1.625rem;
+  margin: 16 75px;
+  text-align: center;
+}  
+.first .main h3{
+  padding-top: 13px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.first .input-email {
+  display: flex;
+  width: 600px;
+  height: 60px;
+  margin: 0 auto;
+}
+.first .input-email input {
+  font-size: 1.625em;
+  flex-grow: 2.5;
+  border-radius: 2px;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+  border: solid 1px #8c8c8c;
+}
+.first .input-email .btn-start {
+  display: block;
+  padding: 7px 17px;
+  background: #e50914;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  flex-grow: 1;
+  border-radius: 3px;
+}
+.first .input-email .btn-start .arrow{
+
+}
+
+.cm {
+  background-color: #000;
+  padding: 70px 45px;
+  border-bottom: 8px solid #222;
+}
+.tv {
+  margin: 0 161px;
+  display: flex;
+  justify-content: center;
+}
+.tv .description {
+  display: block;
+  margin: auto 0;
+  padding-right: 48px;
+  color: #fff;
+  /* width: 52%;
+  height: 100%; */
+}
+.tv .description h1 {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+.tv .description h2 {
+  font-weight: 400;
+  font-size: 1.625rem;
+}
+.tv .content-tv {
+  position: relative;
+}
+.tv .content-tv .image-tv {
+  position: relative;
+  z-index: 2;
+}
+.tv .content-tv .image-tv img {
+  width: 530px;
+  height: 398px;
+}
+.tv .content-tv .tv-video {
+  width: 387px;
+  height: 216px;
+  position: absolute;
+  top:80px;
+  left: 68px;
+}
+.tv .content-tv .tv-video video {
+  width: 100%;
+  height: 100%;
+}
+
+
+.phone {
+  margin: 0 161px;
+  display: flex;
+  justify-content: center;
+}
+.phone .image-phone {
+  position: relative;
+}
+.phone .image-phone img {
+  width: 504px;
+}
+.phone .image-phone .download {
+  background-color: #000;
+  display: flex;
+  border: 1.9px solid #aaa;
+  border-radius: .75em;
+  padding: 8px 12px;
+  width: 302px;
+  height: 83px;
+  align-items: center;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+}
+.phone .image-phone .download .download-img {
+  margin-right: 16px;
+}
+.phone .image-phone .download .download-img img {
+  width: 57px;
+}
+.phone .image-phone .download .text {
+  margin: 4.8px 0;
+  color: #fff;
+}
+.phone .image-phone .download .text span{
+  display: block;
+}
+.phone .image-phone .download .text span.save{
+  color: #0071ed;
+}
+.phone .description {
+  display: block;
+  color: #fff;
+  padding-left: 48px;
+  margin: auto 0;
+  box-sizing: border-box;
+}
+.phone .description h1 {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+.phone .description h2 {
+  font-weight: 400;
+  font-size: 1.625rem;
+  margin: 19.5px 0 6.5px;
+}
+
+.multi {
+  margin: 0 161px;
+  display: flex;
+  justify-content: center;
+}
+.multi .description {
+  display: block;
+  margin: auto 0;
+  padding-right: 48px;
+  color: #fff;
+}
+.multi .description h1 {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+.multi .description h2 {
+  font-weight: 400;
+  font-size: 1.625rem;
+}
+.multi .content-multi {
+  position: relative;
+}
+.multi .content-multi .image-multi {
+  position: relative;
+  z-index: 2;
+}
+.multi .content-multi .image-multi img {
+  width: 555px;
+}
+.multi .content-multi .multi-video {
+  width: 349px;
+  height: 198px;
+  display: block;
+  position: absolute;
+  top:45px;
+  left: 97px;
+}
+.multi .content-multi .multi-video video {
+  width: 100%;
+  height: 100%;
+}
+
+.kids {
+  margin: 0 161px;
+  display: flex;
+  justify-content: center;
+}
+.kids .image-kids {
+  
+}
+.kids .image-kids img {
+  width: 504px;
+}
+.kids .description {
+  display: block;
+  color: #fff;
+  padding-left: 48px;
+  margin: auto 0;
+  box-sizing: border-box;
+}
+.kids .description h1 {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 8px;
+}
+.kids .description h2 {
+  font-weight: 400;
+  font-size: 1.625rem;
+  margin: 19.5px 0 6.5px;
+}
+
+.QA {
+  color: #fff;
+  display: block;
+  justify-content: center;
+}
+.QA h1 {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.QA .qa-list {
+  display: flex;
+  justify-content: center;
+}
+.QA .qa-list ul {
+  margin: 52px 486px;
+}
+.QA .qa-list ul li{
+  display: block;
+}
+.QA .qa-list ul li button{
+  width: 815px;
+  height: 77px;
+  background-color: #303030;
+  padding: 20px 57px 20px 31px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: left;
+  font-size: 1.625rem;
+  position: relative;
+}
+.QA .qa-list ul li button:hover{
+  cursor: pointer;
+}
+.QA .qa-list ul li button span{
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+}
+.QA h3{
+  padding-top: 13px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.QA .input-email {
+  display: flex;
+  width: 600px;
+  height: 60px;
+  margin: 0 auto;
+}
+.QA .input-email input {
+  font-size: 1.625em;
+  flex-grow: 2.5;
+  border-radius: 2px;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+  border: solid 1px #8c8c8c;
+}
+.QA .input-email .btn-start {
+  display: block;
+  padding: 7px 17px;
+  background: #e50914;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  flex-grow: 1;
+  border-radius: 3px;
+}
+
+/* FOOTER */
+
+footer .cm {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 532px;
+}
+footer .inner {
+  margin: 0 394px;
+  padding: 70px 45px 20px;
+  width: 1000px;
+
+}
+footer .inner h1 {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+footer .inner .list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .inner .list .list-1 {
+  padding-right: 12px;
+}
+footer .inner .list .list-1 ul {
+  
+}
+footer .inner .list .list-1 ul li {
+  margin-bottom: 16px;
+
+}
+footer .inner .select-lang {
+  display: block;
+  width: 133px;
+  height: 52px;
+  border: 1px solid #aaa;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 19px;
+  background-color: rgba(0,0,0,.5);
+  margin: 20px 0 23px 0;
+}
+footer .inner p {
+  line-height: 1.4;
+}
+footer .inner p .fairtrade {
+  text-decoration: none;
+  color: #fff;
+}
