@@ -182,7 +182,17 @@ header .option .btn {
   position: absolute;
   right: 10px;
 }
-
+.QA .qa-list .text {
+  width: 815px;
+  padding: 31.2px;
+  box-sizing: border-box;
+  font-size: 26px;
+  background-color: #303030;
+  display: none;
+}
+.qa-list .text.open {
+  display: block;
+}
 /* FOOTER */
 
 footer .cm {
