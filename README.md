@@ -1,7 +1,7 @@
 # 📽 NETFLIX 홈페이지 따라 만들어 보기
 
 ## 완성한 홈페이지 모습
-
+<img width="80%" src = "https://user-images.githubusercontent.com/81519415/121842564-91de2d00-cd1b-11eb-9dfd-f203b65ffc2e.png"/>
 ---
 
 ### tv이미지에 동영상 삽입하기
